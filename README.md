@@ -24,7 +24,7 @@
 <li style="font-family:verdana;">localhost:8080/livros/alterar/{id}</li>
 <h3 style="font-family:verdana;">Deletar livro (DELETE):</h3>
 <li style="font-family:verdana;">localhost:8080/livros/deletar/{id}</li>
-<ul>
+</ul>
 <h1></h1>
 <i style="font-family:verdana;">OBS: As requisições POST e PUT precisam passar um Json válido em seu corpo.</i>
 <i style="font-family:verdana;">OBS²: Susbtituir {id} por uma ID específica de algum livro.</i>
