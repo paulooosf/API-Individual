@@ -27,4 +27,5 @@
 </ul>
 <h1></h1>
 <i style="font-family:verdana;">OBS: As requisições POST e PUT precisam passar um Json válido em seu corpo.</i>
+<p></p>
 <i style="font-family:verdana;">OBS²: Susbtituir {id} por uma ID específica de algum livro.</i>
