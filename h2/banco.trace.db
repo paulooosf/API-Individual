@@ -1,0 +1,6 @@
+2024-05-15 20:26:04.540925-03:00 jdbc[23]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITULO CHARACTER VARYING(40)": "'Como manter a sanidade programando em Java' (42)"; SQL statement:
+insert into livro (autor,data,editora,titulo) values (?,?,?,?) [22001-224]
+2024-05-15 20:27:53.540689-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column "TITULO CHARACTER VARYING(40)": "'Como manter a sanidade programando em Java' (42)"; SQL statement:
+insert into livro (autor,data,editora,titulo) values (?,?,?,?) [22001-224]
