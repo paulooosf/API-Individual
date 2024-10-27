@@ -1,18 +1,16 @@
-<h1 align="center" style="font-family:verdana;">Projeto de API RESTful</h1>
-<h3 style="font-family:verdana;">O projeto foi desenvolvido visando uma Biblioteca, em que a API seria capaz de efetuar operações CRUD (Create, Read, Update e Delete)
- e efetuar validações de dados em um banco de dados, dessa vez sendo o banco H2.</h3>
-<p></p>
-<p style="font-family:verdana;"> Foram usadas as seguintes tecnologias:
-<ul>
-	<li style="font-family:verdana;">Spring</li>
-	<li style="font-family:verdana;">Java JPA</li>
-	<li style="font-family:verdana;">Hibernate</li>
-	<li style="font-family:verdana;">Maven</li>
-	<li style="font-family:verdana;">Banco H2 SQL</li>
-</ul>
+<h1 align="center">API - Individual</h1>
+<h4 align="center">O projeto foi desenvolvido visando uma Biblioteca, em que a API seria capaz de efetuar operações CRUD (Create, Read, Update e Delete)
+ e efetuar validações de dados em um banco de dados, dessa vez sendo o banco H2.</h4>
+<p align="center">
+<img alt="Java" src="https://img.shields.io/badge/JAVA-%23F80820?style=for-the-badge&logoColor=%23F80820&labelColor=black">
+<img alt="Spring" src="https://img.shields.io/badge/SPRING-%236DB33F?style=for-the-badge&logo=spring&logoColor=%236DB33F&labelColor=black">
 </p>
-<h1 style="font-family:verdana;">Endpoints</h1>
-<p style="font-family:verdana;">Para efetuar as requisições localmente, os endpoints são os seguintes:
+<p align="center">
+  <a href="#endpoints">Endpoints</a> •
+  <a href="#créditos">Créditos</a>
+</p>
+
+## Endpoints
 <ul>
 <h3 style="font-family:verdana;">Listar livros (GET):</h3>
 <li style="font-family:verdana;">localhost:8080/livros/lista</li>
@@ -25,7 +23,9 @@
 <h3 style="font-family:verdana;">Deletar livro (DELETE):</h3>
 <li style="font-family:verdana;">localhost:8080/livros/deletar/{id}</li>
 </ul>
-<h1></h1>
 <i style="font-family:verdana;">OBS: As requisições POST e PUT precisam passar um Json válido em seu corpo.</i>
 <p></p>
 <i style="font-family:verdana;">OBS²: Susbtituir {id} por uma ID específica de algum livro.</i>
+
+## Créditos
+- Paulo Henrique - [paulooosf](http://github.com/paulooosf)
